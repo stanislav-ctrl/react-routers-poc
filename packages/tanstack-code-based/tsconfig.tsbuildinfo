@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/router.tsx","./src/routes/homeroute.tsx","./src/routes/rootlayout.tsx","./src/routes/findings/findingslayout.tsx","./src/routes/findings/riskspage.tsx","./src/routes/findings/threatspage.tsx","./src/routes/inventory/inventorylayout.tsx","./src/routes/inventory/itemdetailpage.tsx"],"version":"5.9.3"}

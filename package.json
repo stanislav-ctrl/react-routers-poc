@@ -1,0 +1,14 @@
+{
+  "name": "router-poc",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "scripts": {
+    "dev": "concurrently -n rr,ts-file,ts-code,ts-virt -c cyan,green,yellow,magenta \"pnpm --filter react-router dev\" \"pnpm --filter tanstack-file-based dev\" \"pnpm --filter tanstack-code-based dev\" \"pnpm --filter tanstack-virtual-files dev\"",
+    "build": "pnpm -r build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "typescript": "^5.6.0"
+  }
+}
